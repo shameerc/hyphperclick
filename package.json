@@ -1,0 +1,32 @@
+{
+  "name": "hyphperclick",
+  "main": "./lib/hyphperclick",
+  "author":"Shameer",
+  "version": "0.0.0",
+  "description": "A better Hyperclick provider for PHP",
+  "keywords": [
+    "php",
+    "hyperclick"
+  ],
+  "activationCommands": {
+    "atom-workspace": "hyphperclick:toggle"
+  },
+  "repository": "https://github.com/shameerc/hyphperclick",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getProvider"
+      }
+    }
+  },
+  "dependencies": {
+    "hyperclick": ">=0.0.20"
+  },
+  "devDependencies": {
+    "hyperclick-interfaces": "0.0.0"
+  }
+}
