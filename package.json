@@ -1,8 +1,8 @@
 {
   "name": "hyphperclick",
   "main": "./lib/hyphperclick",
-  "author":"Shameer",
-  "version": "0.0.0",
+  "author": "Shameer",
+  "version": "0.0.1",
   "description": "A better Hyperclick provider for PHP",
   "keywords": [
     "php",
